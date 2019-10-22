@@ -74,7 +74,7 @@ while True:
             convertPass += x
         df = pd.DataFrame([convertPass])
         df.to_clipboard(index=False, header=False)
-        print("\nAlso your password is copied to your clipboard.")
+        print("\nAlso password is copied to your clipboard.")
         sys.exit()
 
     else:
